@@ -2,7 +2,7 @@
 
 1. Clone the directory.
 
-2. Open `PPG Emotion Detection Model.ipynb`
+2. Open `src/PPG Emotion Detection Model.ipynb`
 
    Set `PROJECT_DIR` appropriately.
 
@@ -12,7 +12,7 @@
 
    It also prints median, MAD, mean and standard devaiation of training set. Note these values.
 
-3. Open `Arduino Model.ipynb`
+3. Open `src/Arduino Model.ipynb`
 
    Run the cells in the first heading "Make a TinyML Lite Model for Arduino"
 
@@ -20,4 +20,4 @@
 
 4. Copy the value in model.cc into `ArduinoEmotionDiary/model.cpp`
 
-5. Run `ArduinoEmotionDiary.ino` according to your purpose. To test interaction, define `RUN_BY_USER` in `constants.h` . To test data collection, comment it out.
+5. Run `src/ArduinoEmotionDiary/ArduinoEmotionDiary.ino` according to your purpose. To test interaction, define `RUN_BY_USER` in `constants.h` . To test data collection, comment it out.
